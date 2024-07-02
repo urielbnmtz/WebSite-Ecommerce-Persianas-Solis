@@ -1,0 +1,53 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+.header{
+    background-color: #062038;
+    display: flex;
+    justify-content: space-between;
+    height: 90px;
+}
+
+.header ul{
+    display: flex;
+    justify-content: space-between;
+    margin: auto 0;
+}
+
+.header ul li{
+    margin: auto 0 auto 25px;
+    list-style: none;
+}
+.cart_shopping{
+    width: 34px;
+    height: 34px;
+}
+
+.contact-wp-icon{
+    position: relative;
+    
+    width: 30px;
+    height: 30px;
+}
+
+.logo-ps{
+    height: 60px;
+    margin-left: 70px;
+    margin: auto 0;
+}
+
+.contact-wp {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto 0;
+    height: 30px;
+    width: 200px;
+    border-radius: 10px;
+    background: rgb(19,191,161);
+    background: linear-gradient(90deg, rgba(19,191,161,1) 0%, rgba(9,89,75,1) 100%);
+}
