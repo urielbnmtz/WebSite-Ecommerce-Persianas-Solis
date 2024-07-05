@@ -3,6 +3,7 @@
     padding: 0;
     margin: 0;
     font-family: 'Poppins', sans-serif;
+    background-color: #E6E9EB;
 }
 
 
@@ -28,6 +29,11 @@
     margin: auto 0 auto 25px;
     list-style: none;
 }
+
+body{
+    background-color: #E6E9EB;
+}
+
 .cart_shopping{
     width: 34px;
     height: 34px;
@@ -109,13 +115,48 @@ background-color:aquamarine;
 .data-item{
     padding-top: 10px;
     width: 100%;
-    height: 900px; /*While then auto */
-    background-color: #22ee44;
+    height: auto; /*While then auto */
 }
 
 
 .data-item-description p{
     font-size: 12px;
+    width: 100%;
+    text-align: justify;
+}
+
+.data-item-details{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    margin-top: 25px;
+}
+
+.data-item-details-grid{
+    display: grid;
+    grid-template-columns: 55% 45%;
+    height: auto;
+    width: 100%;
+}
+
+.data-item-details-grid-left{
+}
+.data-item-details-grid-right{
+}
+
+.data-item-details-grid-left h6{
+    height:80px;
+    margin-bottom: 10px;
+    width: 100%;
+    
+}
+
+.data-item-details-grid-right p {
+    font-size: 12px;
+    text-align: end;
+    height: 80px;
+    margin-bottom: 10px;
     width: 100%;
     text-align: justify;
 }
