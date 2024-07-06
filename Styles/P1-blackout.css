@@ -8,7 +8,8 @@
 main{
     width: 100%;
     height: auto;
-    background-color: #125682;
+    padding-top: 80px;
+    background-color: #E6E9EB;
 }
 
 .header{
@@ -66,12 +67,11 @@ main{
 }
 
 .shopping-item{
-    width: 80%;
+    width: 65%;
     height: auto;
     margin: 0 auto;
     display: grid;
     grid-template-columns: 60% 40%;
-    background-color: crimson;
 }
 
 .description-item{
@@ -82,12 +82,12 @@ display: block;
 
 .custom-item{
 grid-column-start: 2;
-/* background-color:aquamarine; */
+text-align: right;
 }
 
 .slice-item{
     width: 100%;
-    height: 650px;
+    height: 550px;
 }
 
 .picture-item1{
@@ -158,4 +158,41 @@ grid-column-start: 2;
     margin-bottom: 10px;
     width: 100%;
     text-align: justify;
+}
+
+.custom-item-textp1{
+    font-size: 24px;
+    margin-left: 10px;
+}
+
+.custom-item-range-width{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.custom-item-range-width input{
+    width: 70%;
+    direction: rtl;
+}
+
+.custom-item-chooseColor{
+    width: 100%;
+    height: 40px;
+    background-color: #062038;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.custom-item-chooseColor div {
+    background-color: black;
+    width: 40px;
+    height: 40px;
+}
+
+.custom-item-addCart{
+    display: flex;
+    justify-content: space-between;
 }
