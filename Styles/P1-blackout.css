@@ -208,6 +208,7 @@ color: #062038;
     justify-content: flex-start; */
     margin-bottom: 30px;
     color: #062038;
+    border-bottom: 2px solid #062038;
     
 }
 
@@ -292,4 +293,48 @@ color: #062038;
     height: 40px;
     background-color: #062038;
     color: #FFFFFF;
+}
+
+.progress-box{
+    display: flex;
+    width: 70%;
+    height: auto;
+    align-items: center;
+}
+
+.custom-item .progress{ 
+    position: relative;
+    margin: auto 0;
+    width: 100%;
+    height: 12px;
+    background-color: #CCCBCB;
+    border-radius: 25PX;
+}
+
+.custom-item .progress-bar{
+    background: #062038;
+    border-radius: 25px;
+}
+
+.custom-item .progress-number{
+    position:absolute;
+    width: 15px;
+    height: 15px;
+    margin: auto 0;
+    border: solid 2px;
+    /* background: #062038; */
+    border-color: #062038;
+    border-radius: 50%;
+    font-size: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.custom-item .progress-number-cir {
+    position: absolute;
+    width: 7px;
+    height: 7px;
+    background-color: #062038;
+    border-radius: 50%;
 }
