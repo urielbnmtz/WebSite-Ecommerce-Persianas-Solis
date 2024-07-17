@@ -184,7 +184,6 @@ color: #062038;
 .custom-item-chooseColor{
     width: 100%;
     height: 40px;
-    background-color: #062038;
     display: flex;
     justify-content: space-between;
 
@@ -192,6 +191,7 @@ color: #062038;
 
 .custom-item-chooseColor div {
     background-color: black;
+    border: 2px solid #fff;
     width: 40px;
     height: 40px;
 }
@@ -295,49 +295,7 @@ color: #062038;
     color: #FFFFFF;
 }
 
-.progress-box{
-    display: flex;
-    width: 70%;
-    height: auto;
-    align-items: center;
-}
 
-.custom-item .progress{ 
-    position: relative;
-    margin: auto 0;
-    width: 100%;
-    height: 12px;
-    background-color: #CCCBCB;
-    border-radius: 25PX;
-}
-
-.custom-item .progress-bar{
-    background: #062038;
-    border-radius: 25px;
-}
-
-.custom-item .progress-number{
-    position:absolute;
-    width: 15px;
-    height: 15px;
-    margin: auto 0;
-    border: solid 2px;
-    /* background: #062038; */
-    border-color: #062038;
-    border-radius: 50%;
-    font-size: 5px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.custom-item .progress-number-cir {
-    position: absolute;
-    width: 7px;
-    height: 7px;
-    background-color: #062038;
-    border-radius: 50%;
-}
 
 .custom-item-p2 .range {
 width:100%;
@@ -395,6 +353,8 @@ margin-top: 20px;
 
 
 
+
+
 .custom-item-p2 .range .sliderValue {
     position: relative;
     width: 70%;
@@ -435,6 +395,44 @@ margin-top: 20px;
 }
 
 .field .field-value.choose {
+    background-color: #F3F2F1;
+    color: #062038;
+}
+
+
+
+
+
+
+
+
+.custom-item-p2 .range .sliderValue.p2 {
+    position: relative;
+    width: 70%;
+    margin: 0 auto;
+    background-color: #119A8A;
+}
+
+.custom-item-p2 .range .sliderValue.p2 span {
+    position: absolute;
+    height: 25px;
+    width: 55px;
+    font-size: small;
+    background: #F3F2F1;
+    color: #062038;
+    border-radius: 10px;
+    top: -30px;
+    transform: translateX(-50%) scale(0);
+    /* transition: transform 0.3s ease-in-out; */
+    transform-origin: bottom;
+    z-index: 2;
+}
+
+.custom-item-p2 .range .sliderValue.p2 span.show{
+    transform: translateX(-50%) scale(1);
+}
+
+.field.p2 .field-value.choose {
     background-color: #F3F2F1;
     color: #062038;
 }
